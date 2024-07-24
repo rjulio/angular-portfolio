@@ -1,2 +1,16 @@
 <app-header />
-<h1>Home page</h1>
+<main>
+	<app-knowledge />
+	<app-experiences />
+	@defer(on viewport) {
+		<app-projects />
+	} @placeholder {
+		<section>
+			<h2>Carregando os projetos..</h2>
+		</section>
+	} @error {
+		<section>
+			<h2>Ocorreu um erro no download do component...</h2>
+		</section>
+	}
+</main>
