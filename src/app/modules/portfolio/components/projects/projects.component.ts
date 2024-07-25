@@ -24,6 +24,7 @@ export class ProjectsComponent {
 					href: 'https://vidafullstack.com.br'
 				}
 			]
-		}
+		},
+		
 	]);
 }
