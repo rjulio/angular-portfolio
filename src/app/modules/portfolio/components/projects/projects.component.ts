@@ -22,7 +22,7 @@ export class ProjectsComponent {
 			title: 'Vida fullstack',
 			width: '100px',
 			height: '51px',
-			description: 'texto de description',
+			description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic id quas nulla perferendis soluta sapiente optio, labore, molestiae quasi, earum modi quia illo enim provident dolorum, sunt impedit. Modi, laboriosam.',
 			links: [
 				{
 					name: 'Conheça o blog',

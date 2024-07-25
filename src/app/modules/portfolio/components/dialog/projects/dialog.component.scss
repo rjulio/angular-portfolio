@@ -24,13 +24,6 @@
 			padding: 0;
 		}
 
-		h3 {
-			color: var(--black-010);
-			font-size: 18px;
-		}
-
-		article { margin-bottom: 15px; }
-
 		button {
 			background: none;
 			border: none;
@@ -38,4 +31,11 @@
 			padding: 0;
 		}
 	}
+
+	h3 {
+		color: var(--black-010);
+		font-size: 18px;
+	}
+
+	article { margin-bottom: 15px; }
 }
